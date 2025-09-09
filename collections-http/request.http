@@ -1,0 +1,12 @@
+### POST request to example server
+POST http://localhost:8080/api/imc/calcular
+Content-Type: application/json
+
+{
+  "altura": 194,
+  "peso": 93
+}
+
+###
+
+POST http://localhost:8080/api/imc/calcular/ultimo-resultado
