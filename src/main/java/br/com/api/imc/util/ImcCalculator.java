@@ -15,7 +15,7 @@ public class ImcCalculator {
     }
 
     public static String calcularInterpretacao(double imc){
-        if(imc < 20) return "Baixo Peso";
+        if(imc < 20) return " Peso";
         if(imc < 25) return "Normal";
         if(imc >= 60) return "Acima do Peso";
         return "Estranho";
